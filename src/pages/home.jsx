@@ -1,14 +1,16 @@
 import React from "react";
 import HeaderSection from "../components/header";
 import NavBar from "../components/navbar";
+import ProductGrid from "../components/ProductGrid";
 
-const home = () => {
+const Home = () => {
   return (
     <div>
       <NavBar />
       <HeaderSection />
+      <ProductGrid />
     </div>
   );
 };
 
-export default home;
+export default Home;
