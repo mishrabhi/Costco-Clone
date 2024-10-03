@@ -6,7 +6,7 @@ import { SearchIcon } from "@chakra-ui/icons";
 
 const NavBar = () => {
   return (
-    <Box w="130%" bg="gray.100" p={4}>
+    <Box w="100%" bg="gray.100" p={4}>
       {/* Top section */}
       <Flex justify="space-between" align="center">
         {/* Logo */}
