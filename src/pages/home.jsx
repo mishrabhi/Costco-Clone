@@ -5,6 +5,7 @@ import ProductGrid from "../components/ProductGrid";
 import PromotionsSection from "../components/PromotionSection";
 import LGAppliance from "../components/Appliance";
 import FeaturedDeals from "../components/FeatureDeals";
+import Hero from "../components/hero";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <PromotionsSection />
       <LGAppliance />
       <FeaturedDeals />
+      <Hero />
     </div>
   );
 };
