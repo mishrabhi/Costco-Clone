@@ -6,6 +6,7 @@ import PromotionsSection from "../components/PromotionSection";
 import LGAppliance from "../components/Appliance";
 import FeaturedDeals from "../components/FeatureDeals";
 import Hero from "../components/hero";
+import Footer from "../components/footer";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <LGAppliance />
       <FeaturedDeals />
       <Hero />
+      <Footer />
     </div>
   );
 };
