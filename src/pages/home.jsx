@@ -3,6 +3,8 @@ import HeaderSection from "../components/header";
 import NavBar from "../components/navbar";
 import ProductGrid from "../components/ProductGrid";
 import PromotionsSection from "../components/PromotionSection";
+import LGAppliance from "../components/Appliance";
+import FeaturedDeals from "../components/FeatureDeals";
 
 const Home = () => {
   return (
@@ -11,6 +13,8 @@ const Home = () => {
       <HeaderSection />
       <ProductGrid />
       <PromotionsSection />
+      <LGAppliance />
+      <FeaturedDeals />
     </div>
   );
 };
