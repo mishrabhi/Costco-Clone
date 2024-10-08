@@ -2,7 +2,7 @@ import React from "react";
 import Home from "./pages/home";
 import NavBar from "./components/navbar";
 import ProductPage from "./pages/productPage";
-import SignInRegisterPage from "./components/SignInRegisterPage"; // Import the new SignInRegisterPage
+import SignInRegisterPage from "./pages/signInRegisterPage"; // Import the new SignInRegisterPage
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
