@@ -10,12 +10,14 @@ const NavBar = () => {
     <Box w="100%" bg="gray.100" p={4}>
       {/* Top section */}
       <Flex justify="space-between" align="center">
-        {/* Logo */}
-        <Image
-          w="16%"
-          src="https://cdn.bfldr.com/56O3HXZ9/at/wkgcrwxgt5bt39wg63kgmqr/Costco-Logo-Registered.png?auto=webp&format=jpg"
-          alt="Costco Logo"
-        />
+        {/* Logo - Wrap in RouterLink for home navigation */}
+        <RouterLink to="/">
+          <Image
+            w="46%"
+            src="https://cdn.bfldr.com/56O3HXZ9/at/wkgcrwxgt5bt39wg63kgmqr/Costco-Logo-Registered.png?auto=webp&format=jpg"
+            alt="Costco Logo"
+          />
+        </RouterLink>
 
         {/* Search Bar */}
         <Flex flex="1" mx={4} maxW="600px">
