@@ -2,6 +2,8 @@
 
 This is a clone of the Costco e-commerce website built using React, Chakra UI, and React Router. It features a fully functional navbar, a product page with categories, a sign-in/register page, and interactive filtering functionality for products.
 
+[Click here to see the deployed website](https://costco-clone-l9rt.vercel.app/)
+
 ## Features
 
 - **Responsive Navbar**: A fully functional responsive navigation bar with search, cart, and user authentication links.
