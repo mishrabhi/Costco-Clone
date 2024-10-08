@@ -11,7 +11,6 @@ import Footer from "../components/footer";
 const Home = () => {
   return (
     <div>
-      <NavBar />
       <HeaderSection />
       <ProductGrid />
       <PromotionsSection />

@@ -3,6 +3,7 @@ import { Box, Flex, Input, Button, Link, Image } from "@chakra-ui/react";
 import { Icon } from "@chakra-ui/icons";
 import { AddIcon, DeleteIcon } from "@chakra-ui/icons";
 import { SearchIcon } from "@chakra-ui/icons";
+import { Link as RouterLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -26,7 +27,7 @@ const NavBar = () => {
 
         {/* Links */}
         <Flex>
-          <Link href="#" mx={2}>
+          <Link href="/signin-register" mx={2}>
             Sign In / Register
           </Link>
           <Link href="#" mx={2}>
@@ -49,7 +50,7 @@ const NavBar = () => {
         <Link href="#" mx={2}>
           Same Day
         </Link>
-        <Link href="#" mx={2}>
+        <Link href="/products" mx={2}>
           Deals
         </Link>
         <Link href="#" mx={2}>
